@@ -14,6 +14,8 @@ class Vue_Menu_A extends Vue_Composant
               <ul id='menu-closed'> 
                 <li><a href='?case=A'>****cas A****</a></li>
                 <li><a href='?case=B'>cas B</a></li>   
+                <li><a href='?case=IMC'>calcul IMC</a></li>   
+                <li><a href='?calculOrage'>cas Orage</a></li>   
                    </ul>
             </nav> 
 ";
