@@ -20,11 +20,11 @@ class Vue_CalculIMC extends Vue_Composant
 <form action='?case=IMC&action=IMC' method='post' >
     <div>
         <label for='taille'>Entrez votre taille : </label>
-        <input type='text' name='taille' required />
+        <input type='number' step='0.01' name='taille' required />
     </div>
     <div>
         <label for='poids'>Entrez votre poids : </label>
-        <input type='number' name='poids' required />
+        <input type='number' step='0.01' name='poids' required />
     </div>
     <button type='submit'>Calculer</button>
 </form>

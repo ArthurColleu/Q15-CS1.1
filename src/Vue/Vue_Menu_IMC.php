@@ -2,7 +2,9 @@
 
 namespace App\Vue;
 
-class Vue_Menu_IMC
+use App\Utilitaire\Vue_Composant;
+
+class Vue_Menu_IMC  extends Vue_Composant
 {
     public function __construct( )
     {           }
@@ -15,7 +17,7 @@ class Vue_Menu_IMC
                 <li><a href='?case=A'>cas A</a></li>
                 <li><a href='?case=B'>cas B</a></li>  
                 <li><a href='?case=IMC'>****calcul IMC****</a></li>   
-                <li><a href='?calculOrage'>cas Orage</a></li>  
+                <li><a href='?case=Orage'>cas Orage</a></li>  
                    </ul>
             </nav> 
 ";
