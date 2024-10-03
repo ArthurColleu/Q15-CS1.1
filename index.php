@@ -27,5 +27,8 @@ switch ($case) {
     case "IMC":
         include ".\src\Controleur\calculIMC.php";
         break;
+    case "Orage":
+        include ".\src\Controleur\calculOrage.php";
+        break;
 }
 $Vue->afficher();

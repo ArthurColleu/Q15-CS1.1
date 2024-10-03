@@ -2,7 +2,9 @@
 
 namespace App\Vue;
 
-class Vue_Menu_Orage
+use App\Utilitaire\Vue_Composant;
+
+class Vue_Menu_Orage extends Vue_Composant
 {
     public function __construct( )
     {           }
